@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart monitoring and prediction of environmental pollution on construction sites</title>
+  <meta name="description" content="Demo website for smart sensors and AI-driven prediction of environmental pollution on construction sites." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <section class="hero" id="top" role="region" aria-label="Project intro">
+    <div class="container">
+      <h1>Smart monitoring and prediction of environmental pollution on construction sites</h1>
+      <p class="subtitle">
+        A lightweight demo showcasing <strong>sensor-driven monitoring</strong> and <strong>AI-driven prediction</strong>.
+      </p>
+
+      <div class="pills" id="features">
+        <!-- Smart Sensors block -->
+        <div class="pill" title="Field-deployed, low-power, calibrated sensing devices" style="display:block; max-width:100%">
+          <strong style="display:inline-block; margin-bottom:8px;">Smart sensors</strong>
+          <figure class="card" tabindex="0" style="margin-top:10px;">
+            <img src="assets/sensors.png"
+                 alt="Smart environmental sensors">
+          </figure>
+        </div>
+
+        <!-- AI-driven Prediction block -->
+        <div class="pill" title="Time-series forecasting and multimodal fusion" style="display:block; max-width:100%">
+          <strong style="display:inline-block; margin-bottom:8px;">Environmental prediction using deep learning AI
+</strong>
+          <figure class="card" tabindex="0" style="margin-top:10px;">
+            <img src="assets/AI.png"
+                 alt="Forecasted vs. actual pollutant concentrations">
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="hero-bg" aria-hidden="true"></div>
+  </section>
+
+  <!-- Video section (heading removed) -->
+  <section class="section" id="video" role="region" aria-label="Demo video">
+    <div class="container">
+      <div class="video-wrap">
+        <video controls playsinline preload="metadata"
+          <source src="assets/demo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        © <span id="y"></span> Smart Environmental Monitoring and Prediction. For demo purposes only. 
+        <a href="#top">Back to top</a>
+      </p>
+    </div>
+  </footer>
+
+  <dialog id="lightbox" aria-label="Image preview">
+    <button class="close" aria-label="Close preview">✕</button>
+    <img alt="" id="lightbox-img">
+    <p id="lightbox-cap"></p>
+  </dialog>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
